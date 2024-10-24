@@ -1,4 +1,4 @@
-# Web Development Project 5 - *Name of App Here*
+# Web Development Project 5 - *Rick and Morty Character Dashboard*
 
 Submitted by: **Rick & Morty Character Dashboard**
 
