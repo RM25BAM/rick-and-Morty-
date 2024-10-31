@@ -1,3 +1,5 @@
+import React from 'react';
+
 const StatisticsCard = ({ stats }) => {
     return (
         <div className="statistics-container">

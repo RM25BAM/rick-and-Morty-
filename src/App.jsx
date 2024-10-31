@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import StatisticsCard from './components/StatisticsCard';
 import DataList from './components/DataList';
 import SearchFilter from './components/SearchFilter';
+import DetailView from './components/DetailView';
+import Chart from './components/Chart';
 import './App.css';
 import { AnimatedBackground } from 'animated-backgrounds';
 
@@ -36,13 +39,21 @@ const App = () => {
   };
 
   return (
-    <div className="app">
-      <AnimatedBackground animationName="matrixRain" />
-      <Header />
-      <StatisticsCard stats={stats} />
-      <SearchFilter onSearch={handleSearch} />
-      <DataList data={filteredData} />
-    </div>
+    <Router>
+      <div className="app">
+        <AnimatedBackground animationName="matrixRain" />
+        <Header />
+        <StatisticsCard stats={stats} />
+        <SearchFilter onSearch={handleSearch} />
+        <Chart data={data} />
+      </div>
+      <div>
+        <Routes>
+          <Route path="/" element={<DataList data={filteredData} />} />
+          <Route path="/detail/:id" element={<DetailView data={data} />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 

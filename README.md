@@ -1,27 +1,26 @@
-# Web Development Project 5 - *Rick and Morty Character Dashboard*
+# Web Development Project 6 - *Project 6*
 
-Submitted by: **Rick & Morty Character Dashboard**
+Submitted by: **Natasha Piedrabuena**
 
-This web app: **Rick & Morty Character Dashboard, display important info like species, gender, origin and if dead or alive**
+This web app: **insert description**
 
-Time spent: **8** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **The list displays a list of data fetched using an API call**
-- [ ] **Data uses the useEffect React hook and async/await syntax**
-- [ ] **The app dashboard includes at least three summary statistics about the data such as**
-  - [ ] **species, gender, origin and if dead or alive**
-- [ ] **A search bar allows the user to search for an item in the fetched data**
-- [ ] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [ ] **The app includes at least one unique chart developed using the fetched data that tell an interesting story**
+- [ ] **Clicking on an item in the list view displays more details about it**
+  - [ ] To ensure an accurate grade, your sidebar **must** be viewable when showing the details view in your recording.
+- [ ] **Clicking on an item has a direct, unique link to that item's detail view page**
+  - [ ] To ensure an accurate grade, the URL/address bar of your web browser **must** be viewable in your recording.  
+
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types such as a text input, a selection, or a slider
-- [ ] The user can enter specific bounds for filter values
+- [ ] The site's customized dashboard contains more content that explains what is interesting about the data
+- [ ] The site allows users to toggle between different data visualizations
 
 The following **additional** features are implemented:
 
@@ -31,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='./demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./demo1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
